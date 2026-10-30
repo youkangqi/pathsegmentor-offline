@@ -5,6 +5,16 @@
 [Release v2026.10.29](https://github.com/youkangqi/pathsegmentor-offline/releases/tag/v2026.10.29)。
 `git clone` 只获取仓库中的说明和脚本，不会获取 Release 附件。
 
+## CLIP 与 BiomedBERT 模型离线补充包
+
+服务器无法访问 Hugging Face 时，可下载
+[模型补充包 v2026.10.30-models](https://github.com/youkangqi/pathsegmentor-offline/releases/tag/v2026.10.30-models)。
+包含默认推理需要的 CLIP 分词器四个文件、BiomedBERT 配置和权重（约 411 MB 压缩包），
+以及官方来源、许可证和 SHA256 校验。
+
+上传服务器后按 [模型离线使用说明](MODELS_OFFLINE.md) 放置文件、修改加载路径并验证。
+模型附件属于独立补充包；Conda 环境安装仍使用下面的 v2026.10.29 分卷。
+
 ## 服务器下载并安装
 
 在 Linux x86_64 服务器执行：
